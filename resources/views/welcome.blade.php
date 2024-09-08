@@ -5,11 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Full Stack Blog</title>
-
+    @vite('resources/css/app.css')
 </head>
 
 <body>
-    <h1>This is the body</h1>
+
+        <div id="app"></div>
+
+    @vite('resources/js/app.js')
 </body>
 
 </html>
