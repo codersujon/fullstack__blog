@@ -1,9 +1,11 @@
 <script setup>
-
+    import { RouterLink, RouterView } from 'vue-router';
 </script>
 <template>
     <div>
-       <h1>Laravel 11 and Vue JS</h1>
+       <RouterView>
+        
+       </RouterView>
     </div>
 </template>
 
